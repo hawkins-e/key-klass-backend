@@ -10,16 +10,17 @@ User.create(username: "jhawk")
 
 Challenge.create(
     challenge_name:"King of the Jungle",
-    challenge_photo_url:"https://images.pexels.com/photos/41315/africa-african-animal-cat-41315.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    challenge_photo_url:"https://images.pexels.com/photos/41315/africa-african-animal-cat-41315.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
     learning_blurb: "Male African Lions can weigh up to 420 pounds. There scientific name is Panthera Leo"
 )
 
 Challenge.create(
-    challenge_name:"Monkeyin' Around", challenge_photo_url:"https://images.pexels.com/photos/2213575/pexels-photo-2213575.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",learning_blurb: "Did you know? Most monkeys sleep sitting in trees, balancing on a branch, often upright resting upon their bottoms!"
+    challenge_name:"Monkeyin' Around", challenge_photo_url:"https://images.pexels.com/photos/2213575/pexels-photo-2213575.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",
+    learning_blurb: "Did you know? Most monkeys sleep sitting in trees, balancing on a branch, often upright resting upon their bottoms!"
 )
 
 Challenge.create(
-challenge_name:"Got Milk?", challenge_photo_url:"https://images.pexels.com/photos/2647053/pexels-photo-2647053.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",learning_blurb: "Did you know? Dairy cows can produce 15,000 to 37,500 pounds of milk per year!"
+challenge_name:"Got Milk?", challenge_photo_url:"https://images.pexels.com/photos/2647053/pexels-photo-2647053.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260",learning_blurb: "Did you know? Dairy cows can produce 15,000 to 37,500 pounds of milk per year!"
 )
 
 Statistic.create(user_id: 1, challenge_id: 1, speed: 60 , accuracy: 91)
