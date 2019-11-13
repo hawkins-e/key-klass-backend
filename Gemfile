@@ -47,3 +47,7 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem "jwt", "~> 2.2"
 
 gem 'bcrypt', '~> 3.1', '>= 3.1.12'
+
+group :production do
+  gem 'rails_12factor'
+end
