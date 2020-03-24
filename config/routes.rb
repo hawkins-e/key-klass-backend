@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root 'challenge#index'
+  root 'challenges#index'
   resources :statistics
   resources :challenges
   resources :users
