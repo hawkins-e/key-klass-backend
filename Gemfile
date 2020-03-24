@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
-git_source(:github) { |repo| "https://github.com/hawkins-e/key-klass-backend" }
+git_source(:github) do |repo_name|
+  repo_name = "https://github.com/hawkins-e/key-klass-backend"
+end
 
 ruby '2.6.1'
 
