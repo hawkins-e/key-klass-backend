@@ -6,6 +6,7 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+Challenge.destroy_all
 
 User.create(username: "ehawk")
 User.create(username: "jhawk")
@@ -13,7 +14,7 @@ User.create(username: "jhawk")
 Challenge.create(
     challenge_name:"King of the Jungle",
     challenge_photo_url:"https://images.pexels.com/photos/41315/africa-african-animal-cat-41315.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500",
-    learning_blurb: "Male African Lions can weigh up to 420 pounds. There scientific name is Panthera Leo"
+    learning_blurb: "Male African Lions can weigh up to 420 pounds. Their scientific name is Panthera Leo."
 )
 
 Challenge.create(
